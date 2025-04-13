@@ -80,7 +80,7 @@ nav a:hover{
     color: #fff;
     height: 100vh;
     position: relative;
-    z-index: -1;
+
 }
 .hero img{
     width: 100%;
@@ -107,6 +107,17 @@ h1{
     width: calc(50% - 12px);
     margin-bottom: 24px;
     position: relative;
+    overflow: hidden;
+    
+}
+.card img{
+    transition: .3s ease;
+    
+}
+.card:hover img{
+    
+        transform: scale(1.1);
+    
 }
 
 .card-content{
@@ -121,7 +132,7 @@ h1{
 .purple-cards{
     background-color: #44368744;
     text-align: center;
-    padding: 64px 0;
+    padding: 42px 0;
     color: #fff;
     font-size: 25px;
     width : 23%;
@@ -129,6 +140,9 @@ h1{
     backdrop-filter: blur(6px);
     box-shadow: 0 4px 4px #9b9b9b25;
     border-radius: 16px;
+}
+.purple-cards .material-icons{
+    font-size: 42px;
 }
 /*Back to top*/
 .back-to-top{
@@ -148,6 +162,13 @@ h1{
     color: var(--purple);
 }
 
+.filligrane{
+    position: fixed;
+    bottom: 0;
+    left: -190px;
+    z-index: -1;
+}
+
 /*footer*/
 footer, footer nav a, footer address a{
     color: #fff;
@@ -158,6 +179,9 @@ footer{
     
 }
 address a{display: block;}
+footer a:hover{
+    color: #b9b9b9;
+}
 address>*{
     margin-bottom: 4px;
 }
@@ -235,3 +259,4 @@ iframe{
     height: 500px;
     margin-top: 32px;
 }
+
