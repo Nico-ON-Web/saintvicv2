@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Alice&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
 
 /*
 .alice-regular {
@@ -108,16 +108,13 @@ h1{
     margin-bottom: 24px;
     position: relative;
     overflow: hidden;
-    
 }
 .card img{
     transition: .3s ease;
-    
 }
 .card:hover img{
         transform: scale(1.1);
 }
-
 .card-content{
     background-color: #44368744;
     backdrop-filter: blur(6px);
@@ -258,3 +255,4 @@ iframe{
     margin-top: 32px;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
